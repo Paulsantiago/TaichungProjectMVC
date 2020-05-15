@@ -1,0 +1,29 @@
+We are still developing the sample code for this functions 
+you can follow the video to use the program 
+tested in win10x64 
+---------------------------------------------------
+Functions 
+1.- Matching using the ROI in the image
+2.- From the matching ROI insert the circle to measure 
+	It's posible to define the radius I wan to find 
+3.- Once the ROI for matching and measure circle are defined 
+     we measure and match the pattern.
+	 We can save and use later this pattern
+4.- In order to detect the line First we need to use Image processing
+	- We use a threshold to change the picture until we can 
+	apply the line we need to find
+5.- We apply line ROI and to the picture 
+6.- Set parameters and measure the line 
+7.- The line return some values like point A and B and
+	the line equation .
+8.- Since we have the Cx AND Cy (center from circle step 3)
+    we can calculate the vector from the center to the middle point of the line 
+	detected. (this step has not been done yet)
+	---------------------------------------
+An example how to get and plot the data from the line and circle can be found in the 
+button "Find Shortest" 
+-----------------------------------------------------------------
+We are still in progress in some functions  therefore this will be improve.
+
+
+

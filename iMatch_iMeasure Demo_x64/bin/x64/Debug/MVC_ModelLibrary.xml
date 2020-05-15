@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MVC_ModelLibrary</name>
+    </assembly>
+    <members>
+        <member name="F:MVC_ModelLibrary.MVC_Managers.MatchingProcess.ROIMatchingManager">
+            <summary>
+            
+            Insert MVC ROI_MANAGER 
+            </summary>
+            
+        </member>
+        <member name="M:MVC_ModelLibrary.MVC_Managers.MatchingProcess.MatchingAddROItoImage">
+             1. - Load Image
+        </member>
+        <member name="M:MVC_ModelLibrary.MVC_Managers.MatchingProcess.CreateMatchingManager">
+            
+             2.- Set Match parameters 
+             
+        </member>
+        <member name="M:MVC_ModelLibrary.MVC_Managers.MatchingProcess.MatchingCreateModel">
+            3.- Train  Module
+            
+            3.1 Get the current iMatch ROI
+            3.2  Create the pattern module using create NCCFromROI or from image 
+        </member>
+        <member name="F:MVC_ModelLibrary.MVC_Managers.MVC_MatchManager._Matchmodel">
+            <summary>
+             matchManager
+            </summary>
+        </member>
+        <member name="M:MVC_ModelLibrary.MVC_Managers.MVC_MatchManager.#ctor">
+            <summary>
+            ctr initialaze the manager
+            </summary>
+        </member>
+        <member name="M:MVC_ModelLibrary.MVC_Managers.MVC_MatchManager.#ctor(MVC.Vision.MiM.mRect)">
+            <summary>
+            Initialize Manager and paramters 
+            </summary>
+            <param name="MatchModel"></param>
+            <param name="Paramters"></param>
+        </member>
+        <member name="M:MVC_ModelLibrary.MVC_Managers.MVC_MatchManager.DestroyNCCMatch">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:MVC_ModelLibrary.MVC_Managers.MVC_ROIManager.l_base_roi">
+            <summary>
+            Components for ROI TYPES 
+            </summary>
+        </member>
+    </members>
+</doc>

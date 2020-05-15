@@ -1,0 +1,463 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MVC</name>
+    </assembly>
+    <members>
+        <member name="T:MVC.Vision.mvcVision.MVC_Image">
+            <summary>
+            import iImage class
+            </summary>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Image.CreateGrayiImage">
+            <summary>
+            // create an GrayImage 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Image.CreateColoriImage">
+            <summary>
+            Create a color Image
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Image.CreateGrayiImageEx(System.Int32,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="wid"></param>
+            <param name="hei"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Image.iGetBitmapAddress(System.IntPtr)">
+            <summary>
+            
+            </summary>
+            <param name="iImg"></param>
+            <returns></returns>
+        </member>
+        <member name="T:MVC.Vision.mvcVision.MVC_Match">
+            <summary>
+            partial class of iMatch 
+            </summary>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.CreateNCCMatch">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.CreateNCCModel(System.IntPtr,System.IntPtr,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="Img"></param>
+            <param name="model"></param>
+            <param name="mask_used"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.CreateNCCModelFromROI(System.IntPtr,System.IntPtr,MVC.Vision.MiM.mRect,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="Img"></param>
+            <param name="model"></param>
+            <param name="ROI"></param>
+            <param name="mask_used"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.DestroyNCCMatch(System.IntPtr)">
+            <summary>
+            
+            </summary>
+            <param name="objptr"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iDrawiMatchResults(System.IntPtr,System.IntPtr,System.Double)">
+            <summary>
+            /////
+            </summary>
+            <param name="model"></param>
+            <param name="hDC"></param>
+            <param name="Scale"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetAngle(System.IntPtr,System.Double@,System.Double@)">
+            <summary>
+            //
+            </summary>
+            <param name="model"></param>
+            <param name="val1"></param>
+            <param name="val2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetColorSensitivity(System.IntPtr,System.Int32@)">
+            <summary>
+            ///
+            </summary>
+            <param name="model"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetColorSimilarity(System.IntPtr,System.Boolean@)">
+            <summary>
+            ///
+            </summary>
+            <param name="model"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetDontCareThreshold(System.IntPtr,System.Int32@)">
+            <summary>
+            //
+            </summary>
+            <param name="model"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetFinalReduction(System.IntPtr,System.Int32@)">
+            <summary>
+            ////
+            </summary>
+            <param name="model"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetIsDontArea(System.IntPtr,System.Boolean@)">
+            <summary>
+            //
+            </summary>
+            <param name="model"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetIsRotated(System.IntPtr,System.Boolean@)">
+            <summary>
+            ///
+            </summary>
+            <param name="model"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetIsScaled(System.IntPtr,System.Boolean@)">
+            <summary>
+            ///
+            </summary>
+            <param name="model"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetKeyState">
+            <summary>
+            ////
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetMinReduceArea(System.IntPtr,System.Int32@)">
+            <summary>
+            //
+            </summary>
+            <param name="model"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetMinScore(System.IntPtr,System.Double@)">
+            <summary>
+            ///
+            </summary>
+            <param name="model"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetModelHeight(System.IntPtr,System.Int32@)">
+            <summary>
+            //
+            </summary>
+            <param name="model"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetModelWidth(System.IntPtr,System.Int32@)">
+            <summary>
+            /
+            </summary>
+            <param name="model"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetNCCMatchResults(System.IntPtr,System.Int32,MVC.Vision.MiM.NCCFind@)">
+            <summary>
+            ///
+            </summary>
+            <param name="model"></param>
+            <param name="index"></param>
+            <param name="data"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetOccurrence(System.IntPtr,System.Int32@)">
+            <summary>
+            ///
+            </summary>
+            <param name="model"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetOutsideFOV(System.IntPtr,System.Int32@)">
+            <summary>
+            ////
+            </summary>
+            <param name="model"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetRobustness(System.IntPtr,System.Boolean@)">
+            <summary>
+            ///
+            </summary>
+            <param name="model"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetScale(System.IntPtr,System.Double@,System.Double@)">
+            <summary>
+            //
+            </summary>
+            <param name="model"></param>
+            <param name="val1"></param>
+            <param name="val2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iGetSubPixel(System.IntPtr,System.Boolean@)">
+            <summary>
+            ///
+            </summary>
+            <param name="model"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iIsColorModel(System.IntPtr)">
+            <summary>
+            //
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iIsPatternLearn(System.IntPtr)">
+            <summary>
+            //
+            </summary>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iPointerFromiModel(System.IntPtr,System.IntPtr)">
+            <summary>
+            ////
+            </summary>
+            <param name="Img"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iSetAngle(System.IntPtr,System.Double,System.Double)">
+            <summary>
+            ///
+            </summary>
+            <param name="model"></param>
+            <param name="val1"></param>
+            <param name="val2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iSetColorSensitivity(System.IntPtr,System.Int32)">
+            <summary>
+            //
+            </summary>
+            <param name="model"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iSetColorSimilarity(System.IntPtr,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iSetDontCareThreshold(System.IntPtr,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iSetFinalReduction(System.IntPtr,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iSetIsDontArea(System.IntPtr,System.Boolean)">
+            <summary>
+            //
+            </summary>
+            <param name="model"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iSetIsRotated(System.IntPtr,System.Boolean)">
+            <summary>
+            //
+            </summary>
+            <param name="model"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iSetIsScaled(System.IntPtr,System.Boolean)">
+            <summary>
+            //
+            </summary>
+            <param name="model"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iSetMinReduceArea(System.IntPtr,System.Int32)">
+            <summary>
+            ///
+            </summary>
+            <param name="model"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iSetMinScore(System.IntPtr,System.Double)">
+            <summary>
+            /
+            </summary>
+            <param name="model"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iSetOccurrence(System.IntPtr,System.Int32)">
+            <summary>
+            ////
+            </summary>
+            <param name="model"></param>
+            <param name="val"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iSetOutsideFOV(System.IntPtr,System.Int32)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iSetRobustness(System.IntPtr,System.Boolean)">
+            <summary>
+            /
+            </summary>
+            <param name="model"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iSetScale(System.IntPtr,System.Double,System.Double)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <param name="val1"></param>
+            <param name="val2"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iSetSubPixel(System.IntPtr,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <param name="flag"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.iVisitingKey">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.LoadiMatchModel(System.IntPtr,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="model"></param>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.MatchNCCModel(System.IntPtr,System.IntPtr)">
+            <summary>
+            
+            </summary>
+            <param name="Img"></param>
+            <param name="model"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.MatchNCCModelEx(System.IntPtr,System.IntPtr,System.Double,System.Double,System.Double,System.Double,System.Double,System.Boolean,System.Boolean,System.Int32)">
+            <summary>
+            //
+            </summary>
+            <param name="Img"></param>
+            <param name="model"></param>
+            <param name="minScore"></param>
+            <param name="maxAng"></param>
+            <param name="minAng"></param>
+            <param name="maxScale"></param>
+            <param name="minScale"></param>
+            <param name="rotated"></param>
+            <param name="scaled"></param>
+            <param name="Max_Pos"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.MatchNCCModelFromROI(System.IntPtr,System.IntPtr,MVC.Vision.MiM.mRect)">
+            <summary>
+            
+            </summary>
+            <param name="Img"></param>
+            <param name="model"></param>
+            <param name="ROI"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_Match.SaveiMatchModel(System.IntPtr,System.String)">
+            <summary>
+            //
+            </summary>
+            <param name="model"></param>
+            <param name="path"></param>
+            <returns></returns>
+        </member>
+        <member name="M:MVC.Vision.mvcVision.MVC_ROI.CreateiROIManager">
+            <summary>
+            CREATE THE MANAGER
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:MVC.Motion.EpcioSeries.MCCL">
+            <summary>
+            Summary description for MCCL.
+            </summary>
+        </member>
+        <member name="T:MVC.Motion.IMP.MCCL">
+            <summary>
+            Summary description for MCCL.
+            </summary>
+        </member>
+        <member name="F:MVC.Motion.IMP.MCCL.LibNameVersion">
+             <summary>
+            Variable definitions/ library 
+             </summary>
+        </member>
+        <member name="M:MVC.Motion.IMP.MCCL.MCC_EnableAccDecAfterIPO(System.UInt16)">
+            
+            Disable IPO ACC and DEC
+        </member>
+    </members>
+</doc>
